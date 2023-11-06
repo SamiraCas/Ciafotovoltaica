@@ -1,11 +1,20 @@
   @import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
 
+  body{
+    overflow-x: hidden;
+  }
+  .introducao{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8%;
+  }
 h1{
   font-family: 'Proza Libre', sans-serif;
   position: absolute;
   font-size: 40px;
   top: 250px;
-  left: 160px;
+  left: 160px; 
   color: #F0F0F0;
   text-transform: uppercase;
 }
@@ -36,10 +45,79 @@ main a{
 .botao {
   background: #FCA919;
   color: #213367;
-  padding: 1rem 2rem;
+  padding:  0.59rem 2rem;
   border-radius: 50px;
   text-transform: uppercase;
+
 }
 .botao:hover {
   opacity: 0.9;
+}
+@media (max-width:1300px){
+  h1{
+    font-size: 40px;
+    top: 170px;
+    left: 95px;
+  }
+  .voltaica{
+    font-size: 45px;
+    top: 280px;
+    left: 95px;
+  }
+  h2{
+    font-size: 20px;
+    top: 285px;
+    left: 95px;
+  }
+  .botao{
+    font-size: 18px;
+    padding: 1rem 2rem;
+    top: 330px;
+    left: 95px;
+  }
+}
+@media (max-width:999px) {
+  h1{
+    font-size: 30px;
+    top: 120px;
+    left: 50px;
+  }
+  .voltaica{
+    font-size: 35px;
+    top: 203px;
+    left: 50px;
+  }
+  h2{
+    font-size: 13px;
+    top: 180px;
+    left: 50px;
+  }
+  .botao{
+    font-size: 14px;
+    padding: 0.6rem 2rem;
+    top: 202px;
+    left: 50px;
+  }
+}@media (max-width:790px){
+  h1{
+    font-size: 16px;
+    top: 120px;
+    left: 20px;
+  }
+  .voltaica{
+    font-size: 21px;
+    top: 165px;
+    left: 20px;
+  }
+  h2{
+    font-size: 10px;
+    top: 136px;
+    left: 20px;
+  }
+  .botao{
+    font-size: 8px;
+    padding: 0.51rem 1.6rem;
+    top: 150px;
+    left: 20px;
+  }
 }
