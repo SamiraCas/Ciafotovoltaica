@@ -1,8 +1,5 @@
   @import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
 
-  body{
-    overflow-x: hidden;
-  }
   .introducao{
     margin: 0 auto;
     display: grid;
@@ -98,7 +95,8 @@ main a{
     top: 202px;
     left: 50px;
   }
-}@media (max-width:790px){
+}
+@media (max-width:790px){
   h1{
     font-size: 16px;
     top: 120px;
@@ -118,6 +116,29 @@ main a{
     font-size: 8px;
     padding: 0.51rem 1.6rem;
     top: 150px;
+    left: 20px;
+  }
+}
+@media (max-width:390px){
+  h1{
+    font-size: 16px;
+    top: 90px;
+    left: 20px;
+  }
+  .voltaica{
+    font-size: 19px;
+    top: 140px;
+    left: 20px;
+  }
+  h2{
+    font-size: 10px;
+    top: 120px;
+    left: 20px;
+  }
+  .botao{
+    font-size: 8px;
+    padding: 0.51rem 1.6rem;
+    top: 130px;
     left: 20px;
   }
 }
