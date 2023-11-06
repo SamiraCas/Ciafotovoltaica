@@ -1,4 +1,3 @@
-  @import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
 
   .introducao{
     margin: 0 auto;
@@ -6,8 +5,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 8%;
   }
-h1{
-  font-family: 'Proza Libre', sans-serif;
+.introducao-text{
   position: absolute;
   font-size: 40px;
   top: 250px;
@@ -15,8 +13,15 @@ h1{
   color: #F0F0F0;
   text-transform: uppercase;
 }
+.introducao-text2{
+  position: absolute;
+  font-size: 42px;
+  top: 308px;
+  left: 160px; 
+  color: #F0F0F0;
+  text-transform: uppercase;
+}
 .voltaica{
-  font-family: 'Proza Libre', sans-serif;
   position: absolute;
   font-size: 45px;
   top: 360px;
@@ -25,7 +30,7 @@ h1{
   text-transform: uppercase;
 }
 
-h2{
+.introducao-mini{
   position: relative;
   font-size: 20px;
   top: 350px;
@@ -51,9 +56,15 @@ main a{
   opacity: 0.9;
 }
 @media (max-width:1300px){
-  h1{
+  
+  .introducao-text{
     font-size: 40px;
     top: 170px;
+    left: 95px;
+  }
+  .introducao-text2{
+    font-size: 40px;
+    top: 227px;
     left: 95px;
   }
   .voltaica{
@@ -61,7 +72,7 @@ main a{
     top: 280px;
     left: 95px;
   }
-  h2{
+  .introducao-mini{
     font-size: 20px;
     top: 285px;
     left: 95px;
@@ -74,9 +85,14 @@ main a{
   }
 }
 @media (max-width:999px) {
-  h1{
+  .introducao-text{
     font-size: 30px;
     top: 120px;
+    left: 50px;
+  }
+  .introducao-text2{
+    font-size: 30px;
+    top: 160px;
     left: 50px;
   }
   .voltaica{
@@ -84,7 +100,7 @@ main a{
     top: 203px;
     left: 50px;
   }
-  h2{
+  .introducao-mini{
     font-size: 13px;
     top: 180px;
     left: 50px;
@@ -97,48 +113,86 @@ main a{
   }
 }
 @media (max-width:790px){
-  h1{
-    font-size: 16px;
+  .introducao-text{
+    font-size: 30px;
     top: 120px;
     left: 20px;
   }
-  .voltaica{
-    font-size: 21px;
-    top: 165px;
+  .introducao-text2{
+    font-size: 30px;
+    top: 155px;
     left: 20px;
   }
-  h2{
+  .voltaica{
+    font-size: 35px;
+    top: 190px;
+    left: 20px;
+  }
+  .introducao-mini{
     font-size: 10px;
-    top: 136px;
+    top: 166px;
     left: 20px;
   }
   .botao{
-    font-size: 8px;
-    padding: 0.51rem 1.6rem;
-    top: 150px;
+    font-size: 13px;
+    padding: 0.5rem 1.5rem;
+    top: 190px;
+    left: 20px;
+  }
+}
+@media (max-width:490px){
+  .introducao-text{
+    font-size: 25px;
+    top: 90px;
+    left: 20px;
+  }
+  .introducao-text2{
+    font-size: 25px;
+    top: 125px;
+    left: 20px;
+  }
+  .voltaica{
+    font-size: 26px;
+    top: 160px;
+    left: 20px;
+  }
+  .introducao-mini{
+    font-size: 10px;
+    top: 140px;
+    left: 20px;
+  }
+  .botao{
+    font-size: 10px;
+    padding: 0.2rem 1rem;
+    top: 145px;
     left: 20px;
   }
 }
 @media (max-width:390px){
-  h1{
-    font-size: 16px;
+  .introducao-text{
+    font-size: 20px;
     top: 90px;
     left: 20px;
   }
+  .introducao-text2{
+    font-size: 20px;
+    top: 115px;
+    left: 20px;
+  }
   .voltaica{
-    font-size: 19px;
+    font-size: 22px;
     top: 140px;
     left: 20px;
   }
-  h2{
+  .introducao-mini{
     font-size: 10px;
     top: 120px;
     left: 20px;
   }
   .botao{
     font-size: 8px;
-    padding: 0.51rem 1.6rem;
-    top: 130px;
+    padding: 0.23rem 1rem;
+    top: 120px;
     left: 20px;
   }
 }
