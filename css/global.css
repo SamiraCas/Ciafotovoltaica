@@ -1,0 +1,15 @@
+body{
+  font-family:'Gotham', sans-serif;
+  margin: 0px;
+  color: #141414;
+  margin-bottom: 1000px;
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
