@@ -1,9 +1,45 @@
+  @import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
+
 h1{
-  font-family: 'Proza Libre';
-  font-style: normal;
+  font-family: 'Proza Libre', sans-serif;
   position: absolute;
   font-size: 40px;
   top: 250px;
-  text-align: left;
+  left: 160px;
+  color: #F0F0F0;
+  text-transform: uppercase;
+}
+.voltaica{
+  font-family: 'Proza Libre', sans-serif;
+  position: absolute;
+  font-size: 45px;
+  top: 360px;
+  left: 160px;
   color: #fff;
+  text-transform: uppercase;
+}
+
+h2{
+  position: relative;
+  font-size: 20px;
+  top: 350px;
+  left: 160px;
+  color: #F0F0F0;
+  
+}
+main a{
+  position: relative;
+  font-size: 20px;
+  top: 380px;
+  left: 160px;
+}
+.botao {
+  background: #FCA919;
+  color: #213367;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+.botao:hover {
+  opacity: 0.9;
 }
