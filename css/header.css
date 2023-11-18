@@ -10,6 +10,7 @@ a{
   background: #FCA919;
   padding: 1rem 2rem;
   border-radius: 50px;
+  border: 0;
   text-transform: uppercase;
 }
 .botao:hover {

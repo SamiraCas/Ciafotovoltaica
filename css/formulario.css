@@ -1,0 +1,18 @@
+.formulario{
+  padding: 90px 20px 30px 15px;
+  width: 300px;
+  position: relative;
+  border-radius: 18px;
+  background-color: #163E91;
+  left: 900px;
+}
+.form-text{
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+}
+.form-text2{
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10%;
+}

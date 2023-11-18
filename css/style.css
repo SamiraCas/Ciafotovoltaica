@@ -3,7 +3,7 @@
 @import './global.css';
 @import './introducao.css';
 @import './informacao.css';
-
+@import './formulario.css';
 *{
   margin: 0;
   padding: 0;

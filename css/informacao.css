@@ -1,4 +1,19 @@
-/* .infor-text {
+.inpormacao{
+  grid-template-columns: 1fr 2fr;
+  gap: 100%;
+} 
+.infor-text {
+  position: absolute;
   font-size: 40px;
   text-transform: uppercase;
-} */
+  left: 350px;
+  bottom: 240px;
+  color:#FB8E00;
+}
+.infor-text2{
+  position: relative;
+  font-size: 45px;
+  text-transform: uppercase;
+  left: 980px;
+  color:#FB8E00;
+}
